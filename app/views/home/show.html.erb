@@ -1,0 +1,5 @@
+<h2>Featured:</h2>
+<% @featured_pages.each do |page| %>
+	<h4><%= page.title %></h4>
+	<%= page.body %>
+<% end %>
